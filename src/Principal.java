@@ -1,5 +1,7 @@
+import javax.swing.SwingUtilities;
+
 public class Principal {
     public static void main(String[] args) {
-        System.out.println("Projeto SPT - AED I");
+        SwingUtilities.invokeLater(() -> new TelaSPT().setVisible(true));
     }
 }
